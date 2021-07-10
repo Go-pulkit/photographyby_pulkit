@@ -53,6 +53,7 @@ footer{font-size: 14px; text-align: center;}
 
 
 @media screen and (min-width: 767px) and (max-width:1000px) {
+    
 .category{max-width:45vw;margin:0; border-color: red;}
 }
 

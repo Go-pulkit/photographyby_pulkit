@@ -16,7 +16,7 @@ body {
     font-family: 'national_parkregular', sans-serif;
 }
 nav{align-items: center; margin-top:10px;}
-nav>ul{ width:85%;display: flex; border-bottom-style:groove; flex-flow: row ; margin:auto; justify-content:space-evenly;}
+nav>ul{ width:85%;display: flex; border-bottom-style:groove; flex-flow: row ; margin:auto; justify-content:space-around;}
 nav>ul>li{font-size: 16px;list-style-type: none; margin-left: -50px; ;}
 nav>ul>li>a{ color: #233C04; text-decoration: none;}
 
@@ -38,7 +38,7 @@ section img{
     max-width: 95%;
     object-fit:cover;
     margin: 10px;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 
@@ -47,11 +47,15 @@ section img{
 }
 
 @media screen and (min-width:1008px){
-    section img{ height: 50vh;}
+    nav{margin-top:10px; margin-left:25%;}
+    nav>ul{ width:55%; border-bottom-style: none;}
+    body{max-width:80vw; margin:10px auto;}
+    section img{max-width:31%; height: 40vh;}
     #logo{width: 20vw;}
     header{display: flex;}
     nav{flex:1; display: flex;}
-    a{font-size: 24px;}
-    
+    a{font-size: 20px;}
+    footer{text-align: center;}    
 }
+
 
